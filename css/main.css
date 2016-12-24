@@ -1,0 +1,82 @@
+html,
+body {
+    height: 100%;
+    background-color: #333;
+}
+
+body {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    vertical-align: middle;
+    z-index: 1;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    background: #444 url('../images/499631282.jpg') no-repeat fixed center center;
+    background-size: cover;
+}
+
+.parallax-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 62, 80, 0.3) url('../images/parallax-dots.png') repeat;
+    z-index: 2;
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+    z-index: 3;
+    position: relative;
+}
+
+.cover-container {
+    max-width: 33rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+    padding: 2rem;
+}
+
+.cover {
+    padding: 0 1.5rem;
+}
+
+.cover-heading {
+    font-size: 4em;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+}
+
+@media (min-width: 40em) {
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+
+    /* Handle the widths */
+    .cover-container {
+        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
+}
