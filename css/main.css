@@ -80,3 +80,63 @@ body {
         width: 100%; /* Must be percentage or pixels for horizontal alignment */
     }
 }
+
+/*.clearfix:after {*/
+  /*content: '';*/
+  /*display: block;*/
+  /*clear: both;*/
+  /*overflow: hidden;*/
+  /*height: 0;*/
+/*}*/
+
+.cover-content h2 {
+  margin-bottom: 30px;
+}
+
+.cover-content p {
+  width: 60%;
+  margin: 0 auto 15px;
+}
+
+.nav-line {
+  background: #f9f1e9;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+.cover-nav {
+  padding: 0 15px;
+  text-align: left;
+}
+
+.cover-nav_brand {
+  text-align: left;
+}
+
+.cover-nav_brand a {
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 2.6;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #232323;
+}
+
+.cover-nav ul {
+  text-align: right;
+  margin: 0;
+  padding: 0 15px 0 0;
+  font-size: 0;
+  float: right;
+}
+
+.cover-nav li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
