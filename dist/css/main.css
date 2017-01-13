@@ -87,3 +87,13 @@ body {
     text-align: center;
     margin-bottom: 3rem;
 }
+
+.map-canvas {
+    height: 350px;
+}
+
+.footer {
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.85) url('../images/parallax-dots.png') repeat;
+    color: #fff;
+}
